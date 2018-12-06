@@ -12,7 +12,7 @@ Welcome to the *Tassel Image-based Phenotyping System*, aka *Tassel Image Proces
 
 To run your analyses, first make an account on the CyVerse Discovery Environment: https://de.cyverse.org/de/
 
-Then, contact me for access to the TIPS algorithm.  You can email me at Joseph dot L dot Gage at gmail dot com.
+Then, contact me (Joseph dot L dot Gage at gmail dot com) for access to the TIPS algorithm.
 
 ## Running TIPS on your own images
 ### Inputs
