@@ -4,8 +4,9 @@ Welcome to the *Tassel Image-based Phenotyping System*, aka *Tassel Image Proces
 
 ## Downloading and testing TIPS
 
-*TIPS is now available on CyVerse!* Benefits of running your tassel analysis on CyVerse include:
+*TIPS is now available on CyVerse!* The original version of TIPS is available on CyVerse, as well as an updated version that automatically segments the tassel from the background in a single image (no 'blank' background image required). Benefits of running your tassel analysis on CyVerse include:
 
+* High throughput, distributed computing.
 * Repeatability - analysis are easily replicable and repeatable.
 * No wrangling with Matlab versions - it just works.
 * Free storage of images and results on the CyVerse Data Store
@@ -15,6 +16,8 @@ To run your analyses, first make an account on the CyVerse Discovery Environment
 Then, contact me (Joseph dot L dot Gage at gmail dot com) for access to the TIPS algorithm.
 
 ## Running TIPS on your own images
+If you really want to run TIPS on your own computer, use the code in this repository.  You may run into compatibility issues with different versions of MATLAB (TIPS was developed under 2014b).
+
 ### Inputs
 TIPS was written to process tassels photographed in front of a white background.  The algorithm expects to be passed two images: one with the tassel in it (foreground), and one without the tassel (background), as well as an output path and prefix.  An optional final argument containing a vector of parameter values can be provided as well.  Formally, the arguments taken by TIPS are (in order):
 
